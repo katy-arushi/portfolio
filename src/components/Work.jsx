@@ -14,8 +14,9 @@ const Work = () => {
 				</div>
 
 				{/* container */}
-				<div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-					{/* grid item */}
+        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+          
+					{/* veggielicious */}
 					<div
 						style={{ backgroundImage: `url(${WorkImg})` }}
 						className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -23,15 +24,15 @@ const Work = () => {
 						{/* hover effects */}
 						<div className='opacity-0 group-hover:opacity-100'>
 							<span className='text-2xl font-bold text-white tracking-wider'>
-								ReactJS Application
+								Veggielicious
 							</span>
 							<div className='pt-8 text-center'>
-								<a href='/'>
+								<a href='https://veggielicious.netlify.app/'>
 									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
 										Demo
 									</button>
 								</a>
-								<a href='/'>
+								<a href='https://github.com/katy-arushi/recipe-app'>
 									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
 										Code
 									</button>
@@ -40,6 +41,7 @@ const Work = () => {
 						</div>
 					</div>
 
+					{/* pomopets */}
 					<div
 						style={{ backgroundImage: `url(${realEstate})` }}
 						className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -47,39 +49,15 @@ const Work = () => {
 						{/* hover effects */}
 						<div className='opacity-0 group-hover:opacity-100'>
 							<span className='text-2xl font-bold text-white tracking-wider'>
-								ReactJS Application
+								Pomodoro Timer
 							</span>
 							<div className='pt-8 text-center'>
-								<a href='/'>
+								<a href='https://pomopets.netlify.app/'>
 									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
 										Demo
 									</button>
 								</a>
-								<a href='/'>
-									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-										Code
-									</button>
-								</a>
-							</div>
-						</div>
-					</div>
-					{/* grid item */}
-					<div
-						style={{ backgroundImage: `url(${WorkImg})` }}
-						className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-					>
-						{/* hover effects */}
-						<div className='opacity-0 group-hover:opacity-100'>
-							<span className='text-2xl font-bold text-white tracking-wider'>
-								ReactJS Application
-							</span>
-							<div className='pt-8 text-center'>
-								<a href='/'>
-									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-										Demo
-									</button>
-								</a>
-								<a href='/'>
+								<a href='https://github.com/katy-arushi/pomopets-client'>
 									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
 										Code
 									</button>
@@ -88,30 +66,7 @@ const Work = () => {
 						</div>
 					</div>
 
-					<div
-						style={{ backgroundImage: `url(${realEstate})` }}
-						className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-					>
-						{/* hover effects */}
-						<div className='opacity-0 group-hover:opacity-100'>
-							<span className='text-2xl font-bold text-white tracking-wider'>
-								ReactJS Application
-							</span>
-							<div className='pt-8 text-center'>
-								<a href='/'>
-									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-										Demo
-									</button>
-								</a>
-								<a href='/'>
-									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-										Code
-									</button>
-								</a>
-							</div>
-						</div>
-					</div>
-					{/* grid item */}
+					{/* scheduler */}
 					<div
 						style={{ backgroundImage: `url(${WorkImg})` }}
 						className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -119,15 +74,15 @@ const Work = () => {
 						{/* hover effects */}
 						<div className='opacity-0 group-hover:opacity-100'>
 							<span className='text-2xl font-bold text-white tracking-wider'>
-								ReactJS Application
+								Interview Scheduler
 							</span>
 							<div className='pt-8 text-center'>
-								<a href='/'>
+								<a href='https://interview-scheduler-2022.netlify.app/'>
 									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
 										Demo
 									</button>
 								</a>
-								<a href='/'>
+								<a href='https://github.com/katy-arushi/scheduler'>
 									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
 										Code
 									</button>
@@ -136,6 +91,7 @@ const Work = () => {
 						</div>
 					</div>
 
+					{/* passwordb */}
 					<div
 						style={{ backgroundImage: `url(${realEstate})` }}
 						className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -143,7 +99,7 @@ const Work = () => {
 						{/* hover effects */}
 						<div className='opacity-0 group-hover:opacity-100'>
 							<span className='text-2xl font-bold text-white tracking-wider'>
-								ReactJS Application
+								Password Manager
 							</span>
 							<div className='pt-8 text-center'>
 								<a href='/'>
@@ -151,7 +107,57 @@ const Work = () => {
 										Demo
 									</button>
 								</a>
+								<a href='https://github.com/katy-arushi/passwordb'>
+									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+										Code
+									</button>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					{/* tweeter */}
+					<div
+						style={{ backgroundImage: `url(${WorkImg})` }}
+						className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+					>
+						{/* hover effects */}
+						<div className='opacity-0 group-hover:opacity-100'>
+							<span className='text-2xl font-bold text-white tracking-wider'>
+								Tweeter
+							</span>
+							<div className='pt-8 text-center'>
 								<a href='/'>
+									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+										Demo
+									</button>
+								</a>
+								<a href='https://github.com/katy-arushi/tweeter'>
+									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+										Code
+									</button>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					{/* tinyapp */}
+					<div
+						style={{ backgroundImage: `url(${realEstate})` }}
+						className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+					>
+						{/* hover effects */}
+						<div className='opacity-0 group-hover:opacity-100'>
+							<span className='text-2xl font-bold text-white tracking-wider'>
+								TinyApp URL Shortener
+							</span>
+							<div className='pt-8 text-center'>
+								<a href='/'>
+									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+										Demo
+									</button>
+								</a>
+								<a href='https://github.com/katy-arushi/tinyapp'>
 									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
 										Code
 									</button>
