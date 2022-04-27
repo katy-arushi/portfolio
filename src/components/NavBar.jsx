@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import Logo from '../assets/logo.png';
-import { FaBars, FaTimes, FaGithub, FaLinkedin, FaGit } from 'react-icons/fa';
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
+import resume from '../assets/resume.pdf'
 
 function NavBar() {
 	const [nav, setNav] = useState(false);
@@ -12,7 +13,9 @@ function NavBar() {
 	return (
 		<div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
 			<div>
-				<img src={Logo} alt='Logo image' style={{ width: '75px' }} />
+				<Link to='home' smooth={true} duration={500}>
+					<img src={Logo} alt='Arushi Katyal Logo' style={{ width: '75px' }} />
+				</Link>
 			</div>
 
 			{/* menu */}
@@ -88,22 +91,42 @@ function NavBar() {
 			<div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
 				<ul>
 					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-						<a className='flex justify-between items-center w-full text-gray-300'>
+						<a
+							className='flex justify-between items-center w-full text-gray-100 text-bold'
+							href='https://www.linkedin.com/in/katyarushi/'
+							target='_blank'
+							rel='noreferrer'
+						>
 							LinkedIn <FaLinkedin size={30} />
 						</a>
 					</li>
 					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-						<a className='flex justify-between items-center w-full text-gray-300'>
+						<a
+							className='flex justify-between items-center w-full text-gray-100'
+							href='https://github.com/katy-arushi'
+							target='_blank'
+							rel='noreferrer'
+						>
 							Github <FaGithub size={30} />
 						</a>
 					</li>
-					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-yellow-700'>
-						<a className='flex justify-between items-center w-full text-gray-300'>
+					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-pink-600'>
+						<a
+							className='flex justify-between items-center w-full text-gray-100'
+							href='mailto:katy.arushi@gmail.com'
+							target='_blank'
+							rel='noreferrer'
+						>
 							Email <HiOutlineMail size={30} />
 						</a>
 					</li>
 					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-						<a className='flex justify-between items-center w-full text-gray-300'>
+            <a
+              className='flex justify-between items-center w-full text-gray-100'
+              href={resume}
+							target='_blank'
+							rel='noreferrer'
+            >
 							Resume <BsFillPersonLinesFill size={30} />
 						</a>
 					</li>
