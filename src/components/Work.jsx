@@ -1,8 +1,8 @@
 import React from 'react';
-import veggielicious from '../assets/veggielicious.png'
-import pomopets from '../assets/pomopets.png'
-import scheduler from '../assets/scheduler.png'
-import passwordb from '../assets/passwordb.png'
+import veggielicious from '../assets/veggielicious.png';
+import pomopets from '../assets/pomopets.png';
+import scheduler from '../assets/scheduler.png';
+import passwordb from '../assets/passwordb.png';
 import tweeter from '../assets/tweeter.png';
 import tinyapp from '../assets/tinyapp.png';
 
@@ -30,13 +30,21 @@ const Work = () => {
 								Veggielicious
 							</span>
 							<div className='pt-8 text-center'>
-								<a href='https://veggielicious.netlify.app/'>
-									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+								<a
+									href='https://veggielicious.netlify.app/'
+									target='_blank'
+									rel='noreferrer'
+								>
+									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-btn-hover'>
 										Demo
 									</button>
 								</a>
-								<a href='https://github.com/katy-arushi/recipe-app'>
-									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+								<a
+									href='https://github.com/katy-arushi/recipe-app'
+									target='_blank'
+									rel='noreferrer'
+								>
+									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-btn-hover'>
 										Code
 									</button>
 								</a>
@@ -55,13 +63,21 @@ const Work = () => {
 								Pomodoro Timer
 							</span>
 							<div className='pt-8 text-center'>
-								<a href='https://pomopets.netlify.app/'>
-									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+								<a
+									href='https://pomopets.netlify.app/'
+									target='_blank'
+									rel='noreferrer'
+								>
+									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-btn-hover'>
 										Demo
 									</button>
 								</a>
-								<a href='https://github.com/katy-arushi/pomopets-client'>
-									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+								<a
+									href='https://github.com/katy-arushi/pomopets-client'
+									target='_blank'
+									rel='noreferrer'
+								>
+									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-btn-hover'>
 										Code
 									</button>
 								</a>
@@ -80,13 +96,21 @@ const Work = () => {
 								Interview Scheduler
 							</span>
 							<div className='pt-8 text-center'>
-								<a href='https://interview-scheduler-2022.netlify.app/'>
-									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+								<a
+									href='https://interview-scheduler-2022.netlify.app/'
+									target='_blank'
+									rel='noreferrer'
+								>
+									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-btn-hover'>
 										Demo
 									</button>
 								</a>
-								<a href='https://github.com/katy-arushi/scheduler'>
-									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+								<a
+									href='https://github.com/katy-arushi/scheduler'
+									target='_blank'
+									rel='noreferrer'
+								>
+									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-btn-hover'>
 										Code
 									</button>
 								</a>
@@ -105,13 +129,17 @@ const Work = () => {
 								Password Manager
 							</span>
 							<div className='pt-8 text-center'>
-								<a href='/'>
-									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+								<a href='/' target='_blank' rel='noreferrer'>
+									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-btn-hover'>
 										Demo
 									</button>
 								</a>
-								<a href='https://github.com/katy-arushi/passwordb'>
-									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+								<a
+									href='https://github.com/katy-arushi/passwordb'
+									target='_blank'
+									rel='noreferrer'
+								>
+									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-btn-hover'>
 										Code
 									</button>
 								</a>
@@ -130,13 +158,17 @@ const Work = () => {
 								Tweeter
 							</span>
 							<div className='pt-8 text-center'>
-								<a href='/'>
-									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+								<a href='/' target='_blank' rel='noreferrer'>
+									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-btn-hover'>
 										Demo
 									</button>
 								</a>
-								<a href='https://github.com/katy-arushi/tweeter'>
-									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+								<a
+									href='https://github.com/katy-arushi/tweeter'
+									target='_blank'
+									rel='noreferrer'
+								>
+									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-btn-hover'>
 										Code
 									</button>
 								</a>
@@ -155,13 +187,17 @@ const Work = () => {
 								TinyApp URL Shortener
 							</span>
 							<div className='pt-8 text-center'>
-								<a href='/'>
-									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+								<a href='/' target='_blank' rel='noreferrer'>
+									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-btn-hover'>
 										Demo
 									</button>
 								</a>
-								<a href='https://github.com/katy-arushi/tinyapp'>
-									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+								<a
+									href='https://github.com/katy-arushi/tinyapp'
+									target='_blank'
+									rel='noreferrer'
+								>
+									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-btn-hover'>
 										Code
 									</button>
 								</a>
