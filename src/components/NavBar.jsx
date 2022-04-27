@@ -11,7 +11,7 @@ function NavBar() {
 	const handleClick = () => setNav(!nav);
 
 	return (
-		<div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+		<div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-background text-gray-300'>
 			<div>
 				<Link to='home' smooth={true} duration={500}>
 					<img src={Logo} alt='Arushi Katyal Logo' style={{ width: '75px' }} />
@@ -121,12 +121,12 @@ function NavBar() {
 						</a>
 					</li>
 					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-100'
-              href={resume}
+						<a
+							className='flex justify-between items-center w-full text-gray-100'
+							href={resume}
 							target='_blank'
 							rel='noreferrer'
-            >
+						>
 							Resume <BsFillPersonLinesFill size={30} />
 						</a>
 					</li>
