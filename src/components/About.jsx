@@ -16,14 +16,19 @@ const About = () => {
 					<div className='sm:text-right text-4xl font-bold'>
 						<p>Hi, I'm Arushi, nice to meet you. Please take a look around.</p>
 					</div>
-          <div>
-            <p>
-              I am passionate about building excellent software that improves the
-              lives of those around me. I specialize in creating software for
-              clients ranging from individuals and small businesses all the way to
-              large enterprise corporations. What would you do if you had a
-              software expert at your fingertips?
-            </p>
+					<div>
+						<p className='text-lg'>
+							I am passionate about building excellent software that improves
+							the lives of those around me. I have experience working on
+							a variety of different projects across the full stack, and I love
+							to implement creative, inspiring designs in the front-end. I am
+							eager to contribute my technical skills to an innovative team and
+							continue to grow and improve as a developer. My previous
+							experience and interests in mental health advocacy, peer
+							counselling, and clinical & research psychology has provided me
+							with a high attention to detail and a focus on team collaboration
+							and empathetic communication.
+						</p>
 					</div>
 				</div>
 			</div>
