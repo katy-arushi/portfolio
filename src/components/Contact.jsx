@@ -4,7 +4,7 @@ const Contact = () => {
 	return (
 		<div
 			name='contact'
-			className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4'
+			className='w-full h-screen bg-background flex justify-center items-center p-4'
 		>
 			<form
 				method='POST'
@@ -20,19 +20,19 @@ const Contact = () => {
 					</p>
 				</div>
 				<input
-					className='bg-[#ccd6f6] p-2 placeholder-gray-500 rounded-md'
+					className='bg-input-bg p-2 placeholder-gray-500 rounded-md'
 					type='text'
 					placeholder='Name'
 					name='name'
 				/>
 				<input
-					className='my-4 p-2 bg-[#ccd6f6] placeholder-gray-500 rounded-md'
+					className='my-4 p-2 bg-input-bg placeholder-gray-500 rounded-md'
 					type='email'
 					placeholder='Email'
 					name='email'
 				/>
 				<textarea
-					className='bg-[#ccd6f6] p-2 placeholder-gray-500 rounded-md'
+					className='bg-input-bg p-2 placeholder-gray-500 rounded-md'
 					name='message'
 					rows='10'
 					placeholder='Message'
