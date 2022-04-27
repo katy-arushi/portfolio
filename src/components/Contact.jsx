@@ -16,23 +16,24 @@ const Contact = () => {
 						Contact
 					</p>
 					<p className='text-gray-300 py-4'>
-						// Submit the form below or send me an email - katy.arushi@gmail.com
+						// Submit the form below or send me an email
 					</p>
+					<a className='text-gray-300' href='mailto:katy.arushi@gmail.com'>// Click here to email me</a>
 				</div>
 				<input
-					className='bg-[#ccd6f6] p-2'
+					className='bg-[#ccd6f6] p-2 placeholder-gray-500'
 					type='text'
 					placeholder='Name'
 					name='name'
 				/>
 				<input
-					className='my-4 p-2 bg-[#ccd6f6]'
+					className='my-4 p-2 bg-[#ccd6f6] placeholder-gray-500'
 					type='email'
 					placeholder='Email'
 					name='email'
 				/>
 				<textarea
-					className='bg-[#ccd6f6] p-2'
+					className='bg-[#ccd6f6] p-2 placeholder-gray-500'
 					name='message'
 					rows='10'
 					placeholder='Message'
