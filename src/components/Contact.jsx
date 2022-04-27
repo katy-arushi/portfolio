@@ -15,7 +15,7 @@ const Contact = () => {
 					<p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>
 						Contact
 					</p>
-					<p className='text-gray-300 pt-4'>
+					<p className='text-gray-300 pt-4 text-lg'>
 						// Submit the form below or send me an email
 					</p>
 				</div>
@@ -37,7 +37,7 @@ const Contact = () => {
 					rows='10'
 					placeholder='Message'
 				></textarea>
-				<button className='text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center'>
+				<button className='text-white border-2 font-bold hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center'>
 					Let's Collaborate
 				</button>
 			</form>
