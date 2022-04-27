@@ -4,9 +4,9 @@ import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import Node from '../assets/node.png';
-import AWS from '../assets/aws.png';
 import GitHub from '../assets/github.png';
-import Tailwind from '../assets/tailwind.png';
+import Sass from '../assets/sass.svg';
+import Postgres from '../assets/postgres.png';
 
 const Skills = () => {
 	return (
@@ -42,20 +42,24 @@ const Skills = () => {
 						<p className='my-4'>CSS</p>
 					</div>
 					<div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+						<img className='w-20 mx-auto' src={Sass} alt='Sass icon' />
+						<p className='my-9'>Sass</p>
+					</div>
+					<div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
 						<img className='w-20 mx-auto' src={Node} alt='Node icon' />
 						<p className='my-4'>Node.js</p>
 					</div>
 					<div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+						<img
+							className='w-20 mx-auto'
+							src={Postgres}
+							alt='PostgreSQL icon'
+						/>
+						<p className='my-3.5'>PostgreSQL</p>
+					</div>
+					<div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
 						<img className='w-20 mx-auto' src={GitHub} alt='GitHub icon' />
 						<p className='my-4'>GitHub</p>
-					</div>
-					<div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-						<img className='w-20 mx-auto' src={HTML} alt='HTML icon' />
-						<p className='my-4'>HTML</p>
-					</div>
-					<div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-						<img className='w-20 mx-auto' src={HTML} alt='HTML icon' />
-						<p className='my-4'>HTML</p>
 					</div>
 				</div>
 			</div>
