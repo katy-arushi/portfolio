@@ -1,6 +1,10 @@
 import React from 'react';
-import WorkImg from '../assets/workImg.jpeg';
-import realEstate from '../assets/realestate.jpg';
+import veggielicious from '../assets/veggielicious.png'
+import pomopets from '../assets/pomopets.png'
+import scheduler from '../assets/scheduler.png'
+import passwordb from '../assets/passwordb.png'
+import tweeter from '../assets/tweeter.png';
+import tinyapp from '../assets/tinyapp.png';
 
 const Work = () => {
 	return (
@@ -14,16 +18,15 @@ const Work = () => {
 				</div>
 
 				{/* container */}
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-          
+				<div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 					{/* veggielicious */}
 					<div
-						style={{ backgroundImage: `url(${WorkImg})` }}
+						style={{ backgroundImage: `url(${veggielicious})` }}
 						className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
 					>
 						{/* hover effects */}
-						<div className='opacity-0 group-hover:opacity-100'>
-							<span className='text-2xl font-bold text-white tracking-wider'>
+						<div className='opacity-0 group-hover:opacity-100 text-center'>
+							<span className='text-2xl font-bold text-white tracking-wider text-center'>
 								Veggielicious
 							</span>
 							<div className='pt-8 text-center'>
@@ -43,11 +46,11 @@ const Work = () => {
 
 					{/* pomopets */}
 					<div
-						style={{ backgroundImage: `url(${realEstate})` }}
+						style={{ backgroundImage: `url(${pomopets})` }}
 						className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
 					>
 						{/* hover effects */}
-						<div className='opacity-0 group-hover:opacity-100'>
+						<div className='opacity-0 group-hover:opacity-100 text-center'>
 							<span className='text-2xl font-bold text-white tracking-wider'>
 								Pomodoro Timer
 							</span>
@@ -68,11 +71,11 @@ const Work = () => {
 
 					{/* scheduler */}
 					<div
-						style={{ backgroundImage: `url(${WorkImg})` }}
+						style={{ backgroundImage: `url(${scheduler})` }}
 						className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
 					>
 						{/* hover effects */}
-						<div className='opacity-0 group-hover:opacity-100'>
+						<div className='opacity-0 group-hover:opacity-100 text-center'>
 							<span className='text-2xl font-bold text-white tracking-wider'>
 								Interview Scheduler
 							</span>
@@ -93,11 +96,11 @@ const Work = () => {
 
 					{/* passwordb */}
 					<div
-						style={{ backgroundImage: `url(${realEstate})` }}
+						style={{ backgroundImage: `url(${passwordb})` }}
 						className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
 					>
 						{/* hover effects */}
-						<div className='opacity-0 group-hover:opacity-100'>
+						<div className='opacity-0 group-hover:opacity-100 text-center'>
 							<span className='text-2xl font-bold text-white tracking-wider'>
 								Password Manager
 							</span>
@@ -118,11 +121,11 @@ const Work = () => {
 
 					{/* tweeter */}
 					<div
-						style={{ backgroundImage: `url(${WorkImg})` }}
+						style={{ backgroundImage: `url(${tweeter})` }}
 						className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
 					>
 						{/* hover effects */}
-						<div className='opacity-0 group-hover:opacity-100'>
+						<div className='opacity-0 group-hover:opacity-100 text-center'>
 							<span className='text-2xl font-bold text-white tracking-wider'>
 								Tweeter
 							</span>
@@ -143,11 +146,11 @@ const Work = () => {
 
 					{/* tinyapp */}
 					<div
-						style={{ backgroundImage: `url(${realEstate})` }}
+						style={{ backgroundImage: `url(${tinyapp})` }}
 						className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
 					>
 						{/* hover effects */}
-						<div className='opacity-0 group-hover:opacity-100'>
+						<div className='opacity-0 group-hover:opacity-100 text-center'>
 							<span className='text-2xl font-bold text-white tracking-wider'>
 								TinyApp URL Shortener
 							</span>
