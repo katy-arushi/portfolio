@@ -21,27 +21,52 @@ function NavBar() {
 			{/* menu */}
 			<ul className='hidden md:flex'>
 				<li>
-					<Link to='home' smooth={true} duration={500}>
+					<Link
+						to='home'
+						smooth={true}
+						duration={500}
+						className='hover:text-pink-600'
+					>
 						Home
 					</Link>
 				</li>
 				<li>
-					<Link to='about' smooth={true} duration={500}>
+					<Link
+						to='about'
+						smooth={true}
+						duration={500}
+						className='hover:text-pink-600'
+					>
 						About
 					</Link>
 				</li>
 				<li>
-					<Link to='skills' smooth={true} duration={500}>
+					<Link
+						to='skills'
+						smooth={true}
+						duration={500}
+						className='hover:text-pink-600'
+					>
 						Skills
 					</Link>
 				</li>
 				<li>
-					<Link to='work' smooth={true} duration={500}>
+					<Link
+						to='work'
+						smooth={true}
+						duration={500}
+						className='hover:text-pink-600'
+					>
 						Work
 					</Link>
 				</li>
 				<li>
-					<Link to='contact' smooth={true} duration={500}>
+					<Link
+						to='contact'
+						smooth={true}
+						duration={500}
+						className='hover:text-pink-600'
+					>
 						Contact
 					</Link>
 				</li>
