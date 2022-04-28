@@ -1,6 +1,8 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
+import { FiExternalLink } from 'react-icons/fi';
 import { Link } from 'react-scroll';
+import resume from '../assets/resume.pdf';
 
 const Home = () => {
 	return (
@@ -19,16 +21,29 @@ const Home = () => {
 					experiences. I enjoy working on front-end features and creating
 					elegant apps with user-focused designs. Currently, I'm focused on
 					building responsive full-stack web applications.
-				</p>
-				<div>
+        </p>
+        
+        {/* button container */}
+				<div className='flex'>
 					<Link to='work' smooth={true} duration={500}>
-						<button className='text-white font-bold group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
+						<button className='text-white font-bold group border-2 p-3 m-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
 							View Work
 							<span className='group-hover:rotate-90 duration-300'>
 								<HiArrowNarrowRight className='ml-3' />
 							</span>
 						</button>
 					</Link>
+					<button className='text-white font-bold group border-2 p-3 m-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
+						<a
+							className='flex justify-between items-center w-full text-gray-100'
+							href={resume}
+							target='_blank'
+							rel='noreferrer'
+						>
+              Resume
+              <FiExternalLink className='ml-3' />
+						</a>
+					</button>
 				</div>
 			</div>
 		</div>
