@@ -23,8 +23,10 @@ const About = () => {
 							a variety of different projects across the full stack, and I love
 							to implement creative, inspiring designs in the front-end. I am
 							eager to contribute my technical skills to an innovative team and
-							continue to grow and improve as a developer. My previous
-							experience and interests in mental health advocacy, peer
+              continue to grow and improve as a developer.
+						</p>
+            <p className='text-lg mt-4'>
+              My previous experience and interests in mental health advocacy, peer
 							counselling, and clinical & research psychology has provided me
 							with a high attention to detail and a focus on team collaboration
 							and empathetic communication.
