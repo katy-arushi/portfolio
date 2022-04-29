@@ -12,6 +12,7 @@ const Home = () => {
 				<p className='text-pink-600 text-lg'>Hi, my name is</p>
 				<h1 className='text-4xl sm:text-7xl font-bold text-input-bg'>
 					Arushi Katyal
+					<span className='text-sm pl-2'>(she/her)</span>
 				</h1>
 				<h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
 					I'm a Full Stack Developer.
@@ -26,14 +27,14 @@ const Home = () => {
 				{/* button container */}
 				<div className='flex'>
 					<Link to='work' smooth={true} duration={500}>
-						<button className='text-white font-bold group border-2 p-3 m-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
+						<button className='text-white font-bold group border-2 p-3 my-2 mr-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
 							View Work
 							<span className='group-hover:rotate-90 duration-300'>
 								<HiArrowNarrowRight className='ml-3' />
 							</span>
 						</button>
 					</Link>
-					<button className='text-white font-bold group border-2 p-3 m-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
+					<button className='text-white font-bold group border-2 p-3 my-2 ml-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
 						<a
 							className='flex justify-between items-center w-full text-gray-100'
 							href={resume}
