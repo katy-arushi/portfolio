@@ -21,9 +21,9 @@ const Home = () => {
 					experiences. I enjoy working on front-end features and creating
 					elegant apps with user-focused designs. Currently, I'm focused on
 					building responsive full-stack web applications.
-        </p>
-        
-        {/* button container */}
+				</p>
+
+				{/* button container */}
 				<div className='flex'>
 					<Link to='work' smooth={true} duration={500}>
 						<button className='text-white font-bold group border-2 p-3 m-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
@@ -40,8 +40,8 @@ const Home = () => {
 							target='_blank'
 							rel='noreferrer'
 						>
-              Resume
-              <FiExternalLink className='ml-3' />
+							Resume
+							<FiExternalLink className='ml-3' />
 						</a>
 					</button>
 				</div>
