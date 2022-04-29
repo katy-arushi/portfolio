@@ -35,27 +35,27 @@ const Skills = () => {
 						/>
 						<p className='my-4'>JavaScript</p>
 					</div>
-					<div className='shadow-md shadow-skills-shadow border-2 border-pink-600 rounded-md pt-4 hover:scale-110 duration-500'>
+					<div className='shadow-md shadow-shadow border-2 border-pink-600 rounded-md pt-4 hover:scale-110 duration-500'>
 						<img className='w-20 mx-auto' src={ReactImg} alt='React icon' />
 						<p className='my-4'>React</p>
 					</div>
-					<div className='shadow-md shadow-skills-shadow border-2 border-pink-600 rounded-md pt-4 hover:scale-110 duration-500'>
+					<div className='shadow-md shadow-shadow border-2 border-pink-600 rounded-md pt-4 hover:scale-110 duration-500'>
 						<img className='w-20 mx-auto' src={HTML} alt='HTML icon' />
 						<p className='my-4'>HTML</p>
 					</div>
-					<div className='shadow-md shadow-skills-shadow border-2 border-pink-600 rounded-md pt-4 hover:scale-110 duration-500'>
+					<div className='shadow-md shadow-shadow border-2 border-pink-600 rounded-md pt-4 hover:scale-110 duration-500'>
 						<img className='w-20 mx-auto' src={CSS} alt='CSS icon' />
 						<p className='my-4'>CSS</p>
 					</div>
-					<div className='shadow-md shadow-skills-shadow border-2 border-pink-600 rounded-md pt-4 hover:scale-110 duration-500'>
+					<div className='shadow-md shadow-shadow border-2 border-pink-600 rounded-md pt-4 hover:scale-110 duration-500'>
 						<img className='w-20 mx-auto' src={Sass} alt='Sass icon' />
 						<p className='my-9'>Sass</p>
 					</div>
-					<div className='shadow-md shadow-skills-shadow border-2 border-pink-600 rounded-md pt-4 hover:scale-110 duration-500'>
+					<div className='shadow-md shadow-shadow border-2 border-pink-600 rounded-md pt-4 hover:scale-110 duration-500'>
 						<img className='w-20 mx-auto' src={Node} alt='Node icon' />
 						<p className='my-4'>Node.js</p>
 					</div>
-					<div className='shadow-md shadow-skills-shadow border-2 border-pink-600 rounded-md pt-4 hover:scale-110 duration-500'>
+					<div className='shadow-md shadow-shadow border-2 border-pink-600 rounded-md pt-4 hover:scale-110 duration-500'>
 						<img
 							className='w-20 mx-auto'
 							src={Postgres}
@@ -63,7 +63,7 @@ const Skills = () => {
 						/>
 						<p className='my-3.5'>PostgreSQL</p>
 					</div>
-					<div className='shadow-md shadow-skills-shadow border-2 border-pink-600 rounded-md pt-4 hover:scale-110 duration-500'>
+					<div className='shadow-md shadow-shadow border-2 border-pink-600 rounded-md pt-4 hover:scale-110 duration-500'>
 						<img className='w-20 mx-auto' src={GitHub} alt='GitHub icon' />
 						<p className='my-4'>GitHub</p>
 					</div>
