@@ -10,7 +10,7 @@ module.exports = {
         'btn-hover': '#FBE2B1',
         'resume': '#565f69',
         'github': '#333333',
-        'skills-shadow': '#040c16',
+        'shadow': '#040c16',
       }
     },
   },
