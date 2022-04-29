@@ -9,7 +9,8 @@ module.exports = {
         'input-bg': '#ccd6f6',
         'btn-hover': '#FBE2B1',
         'resume': '#565f69',
-        'github': '#333333'
+        'github': '#333333',
+        'skills-shadow': '#040c16',
       }
     },
   },
