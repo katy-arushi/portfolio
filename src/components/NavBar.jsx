@@ -105,17 +105,52 @@ function NavBar() {
 						Skills
 					</Link>
 				</li>
-				<li className='py-6 text-4xl'>
+				<li className='py-6 mb-12 text-4xl'>
 					<Link onClick={handleClick} to='contact' smooth={true} duration={500}>
 						Contact
 					</Link>
 				</li>
+				<li className='text-2xl mb-4 border-b-4 border-pink-600'>
+					Social Links
+				</li>
+				<div className='flex items-center'>
+					<li className='w-[60px] h-[50px] flex items-center ml-4 rounded-lg bg-blue-600'>
+						<a
+							className='text-gray-100'
+							href='https://www.linkedin.com/in/katyarushi/'
+							target='_blank'
+							rel='noreferrer'
+						>
+							<FaLinkedin size={30} />
+						</a>
+					</li>
+					<li className='w-[60px] h-[50px] flex items-center ml-4 rounded-lg bg-github'>
+						<a
+							className='text-gray-100'
+							href='https://github.com/katy-arushi'
+							target='_blank'
+							rel='noreferrer'
+						>
+							<FaGithub size={30} />
+						</a>
+					</li>
+					<li className='w-[60px] h-[50px] flex items-center ml-4 rounded-lg bg-pink-600'>
+						<a
+							className='text-gray-100'
+							href='mailto:katy.arushi@gmail.com'
+							target='_blank'
+							rel='noreferrer'
+						>
+							<HiOutlineMail size={30} />
+						</a>
+					</li>
+				</div>
 			</ul>
 
 			{/* social icons */}
 			<div className='hidden lg:flex fixed flex-col top-[35%] left-0 font-bold'>
 				<ul>
-					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 rounded-sm bg-blue-600'>
 						<a
 							className='flex justify-between items-center w-full text-gray-100 text-bold'
 							href='https://www.linkedin.com/in/katyarushi/'
@@ -125,7 +160,7 @@ function NavBar() {
 							LinkedIn <FaLinkedin size={30} />
 						</a>
 					</li>
-					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 rounded-sm bg-github'>
 						<a
 							className='flex justify-between items-center w-full text-gray-100'
 							href='https://github.com/katy-arushi'
@@ -135,7 +170,7 @@ function NavBar() {
 							Github <FaGithub size={30} />
 						</a>
 					</li>
-					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-pink-600'>
+					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 rounded-sm bg-pink-600'>
 						<a
 							className='flex justify-between items-center w-full text-gray-100'
 							href='mailto:katy.arushi@gmail.com'
@@ -145,7 +180,7 @@ function NavBar() {
 							Email <HiOutlineMail size={30} />
 						</a>
 					</li>
-					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
+					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 rounded-sm bg-resume'>
 						<a
 							className='flex justify-between items-center w-full text-gray-100'
 							href={resume}
