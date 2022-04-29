@@ -114,7 +114,7 @@ function NavBar() {
 					Social Links
 				</li>
 				<div className='flex items-center'>
-					<li className='w-[60px] h-[50px] flex items-center ml-4 rounded-lg bg-blue-600'>
+					<li className='w-[60px] h-[50px] flex items-center rounded-lg bg-blue-600'>
 						<a
 							className='text-gray-100'
 							href='https://www.linkedin.com/in/katyarushi/'
