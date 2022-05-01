@@ -44,8 +44,8 @@ const Work = () => {
 			demo: '/',
 			code: 'https://github.com/katy-arushi/passwordb',
 			blurb:
-				"Passwordb is a password manager that allows a user to add accounts and generate secure passwords.",
-			tech: 'JavaScript, HTML, CSS, SASS, jQuery, Node, Express, PostgreSQL',
+				"Passwordb allows a user to add accounts and generate secure passwords.",
+			tech: 'JavaScript, HTML, CSS, SASS, jQuery, Node, PostgreSQL',
 			id: 4,
 		},
 		{
@@ -70,7 +70,7 @@ const Work = () => {
 	];
 
 	return (
-		<div name='work' className='w-full md:h-screen text-gray-300 bg-background'>
+		<div id='work' className='w-full md:h-screen text-gray-300 bg-background'>
 			<div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
 				<div className='pb-8'>
 					<p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>
