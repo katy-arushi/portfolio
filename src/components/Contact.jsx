@@ -3,8 +3,8 @@ import React from 'react';
 const Contact = () => {
 	return (
 		<div
-			name='contact'
-			className='w-full md:h-screen bg-background flex justify-center items-center p-4'
+			id='contact'
+			className='w-full h-screen bg-background flex justify-center items-center p-4'
 		>
 			<form
 				method='POST'
@@ -34,9 +34,9 @@ const Contact = () => {
 					required
 				/>
 				<textarea
-					className='bg-input-bg p-2 placeholder-gray-500 rounded-md'
+					className='bg-input-bg p-2 placeholder-gray-500 rounded-md resize-none'
 					name='message'
-					rows='10'
+					rows='7'
 					placeholder='Message'
 					required
 				></textarea>
