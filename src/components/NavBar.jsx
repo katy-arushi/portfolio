@@ -3,8 +3,7 @@ import Logo from '../assets/logo.png';
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { Link } from 'react-scroll';
-import resume from '../assets/resume.pdf'
+import resume from '../assets/resume.pdf';
 
 function NavBar() {
 	const [nav, setNav] = useState(false);
@@ -13,62 +12,37 @@ function NavBar() {
 	return (
 		<div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-background text-gray-300'>
 			<div>
-				<Link to='home' smooth={true} duration={500}>
+				<a href='#home'>
 					<img src={Logo} alt='Arushi Katyal Logo' style={{ width: '75px' }} />
-				</Link>
+				</a>
 			</div>
 
 			{/* menu */}
 			<ul className='hidden md:flex'>
 				<li>
-					<Link
-						to='home'
-						smooth={true}
-						duration={500}
-						className='hover:text-pink-600'
-					>
+					<a href='#home' className='hover:text-pink-600'>
 						Home
-					</Link>
+					</a>
 				</li>
 				<li>
-					<Link
-						to='about'
-						smooth={true}
-						duration={500}
-						className='hover:text-pink-600'
-					>
+					<a href='#about' className='hover:text-pink-600'>
 						About
-					</Link>
+					</a>
 				</li>
 				<li>
-					<Link
-						to='work'
-						smooth={true}
-						duration={500}
-						className='hover:text-pink-600'
-					>
+					<a href='#work' className='hover:text-pink-600'>
 						Work
-					</Link>
+					</a>
 				</li>
 				<li>
-					<Link
-						to='skills'
-						smooth={true}
-						duration={500}
-						className='hover:text-pink-600'
-					>
+					<a href='#skills' className='hover:text-pink-600'>
 						Skills
-					</Link>
+					</a>
 				</li>
 				<li>
-					<Link
-						to='contact'
-						smooth={true}
-						duration={500}
-						className='hover:text-pink-600'
-					>
+					<a href='#contact' className='hover:text-pink-600'>
 						Contact
-					</Link>
+					</a>
 				</li>
 			</ul>
 
@@ -86,29 +60,29 @@ function NavBar() {
 				}
 			>
 				<li className='py-6 text-4xl'>
-					<Link onClick={handleClick} to='home' smooth={true} duration={500}>
+					<a onClick={handleClick} href='#home'>
 						Home
-					</Link>
+					</a>
 				</li>
 				<li className='py-6 text-4xl'>
-					<Link onClick={handleClick} to='about' smooth={true} duration={500}>
+					<a onClick={handleClick} href='#about'>
 						About
-					</Link>
+					</a>
 				</li>
 				<li className='py-6 text-4xl'>
-					<Link onClick={handleClick} to='work' smooth={true} duration={500}>
+					<a onClick={handleClick} href='#work'>
 						Work
-					</Link>
+					</a>
 				</li>
 				<li className='py-6 text-4xl'>
-					<Link onClick={handleClick} to='skills' smooth={true} duration={500}>
+					<a onClick={handleClick} href='#skills'>
 						Skills
-					</Link>
+					</a>
 				</li>
 				<li className='py-6 mb-12 text-4xl'>
-					<Link onClick={handleClick} to='contact' smooth={true} duration={500}>
+					<a onClick={handleClick} href='#contact'>
 						Contact
-					</Link>
+					</a>
 				</li>
 				<li className='text-2xl mb-4 border-b-4 border-pink-600'>
 					Social Links
