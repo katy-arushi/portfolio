@@ -11,7 +11,7 @@ import Postgres from '../assets/postgres.png';
 const Skills = () => {
 	return (
 		<div
-			name='skills'
+			id='skills'
 			className='w-full md:h-screen bg-[#0a192f] text-gray-300'
 		>
 			{/* container */}
