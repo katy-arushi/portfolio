@@ -8,4 +8,4 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/91f3d6dc-68f1-4ca8-ae03-7af147d0d087/deploy-status)](https://app.netlify.com/sites/arushi-katyal/deploys)
 
-![screenshot](https://github.com/katy-arushi/)
+![screenshot](https://github.com/katy-arushi/portfolio/blob/main/public/home.png?raw=true)
