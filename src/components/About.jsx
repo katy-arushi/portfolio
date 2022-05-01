@@ -2,7 +2,10 @@ import React from 'react';
 
 const About = () => {
 	return (
-		<div name='about' className='w-full md:h-screen bg-[#0a192f] text-gray-300'>
+		<div
+			id='about'
+			className='w-full md:h-screen bg-[#0a192f] text-gray-300'
+		>
 			<div className='flex flex-col justify-center items-center w-full h-full'>
 				<div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
 					<div className='sm:text-right pb-8 pl-4'>
@@ -19,17 +22,17 @@ const About = () => {
 					<div>
 						<p className='text-lg'>
 							I am passionate about building excellent software that improves
-							the lives of those around me. I have experience working on
-							a variety of different projects across the full stack, and I love
-							to implement creative, inspiring designs in the front-end. I am
-							eager to contribute my technical skills to an innovative team and
-              continue to grow and improve as a developer.
+							the lives of those around me. I have experience working on a
+							variety of different projects across the full stack, and I love to
+							implement creative, inspiring designs in the front-end. I am eager
+							to contribute my technical skills to an innovative team and
+							continue to grow and improve as a developer.
 						</p>
-            <p className='text-lg mt-4'>
-              My previous experience and interests in mental health advocacy, peer
-							counselling, and clinical & research psychology has provided me
-							with a high attention to detail and a focus on team collaboration
-							and empathetic communication.
+						<p className='text-lg mt-4 mb-8'>
+							My previous experience and interests in mental health advocacy,
+							peer counselling, and clinical & research psychology has provided
+							me with a high attention to detail and a focus on team
+							collaboration and empathetic communication.
 						</p>
 					</div>
 				</div>
