@@ -14,6 +14,10 @@
 	}
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .content-div {
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,4 +31,47 @@
     rgba(179, 168, 224, 0.8),
     hsla(276, 74%, 61%, 0.8)
   )!important;
+}
+
+#about::before {
+  display: block;
+  visibility: hidden;
+  content: "";
+  padding-bottom: 80px;
+  margin-top: -80px;
+  width: 0px;
+}
+
+#work::before {
+  display: block;
+  visibility: hidden;
+  padding-bottom: 80px;
+  margin-top: -110px;
+  width: 0px;
+}
+
+#skills::before {
+  display: block;
+  visibility: hidden;
+  padding-bottom: 80px;
+  margin-top: -80px;
+  width: 0px;
+}
+
+#contact::before {
+  display: block;
+  visibility: hidden;
+  content: "";
+  padding-bottom: 80px;
+  margin-top: -80px;
+  width: 0px;
+}
+
+@media screen and (max-width: 750px) {
+  #work::before {
+    content: "";
+  }
+  #skills::before {
+    content: "";
+  }
 }
