@@ -24,26 +24,23 @@ const Home = () => {
 				</p>
 
 				{/* button container */}
-				<div className='flex'>
-          <a href="#work">
+        <div className='flex'>
+          
+					<a href='#work'>
 						<button className='text-white font-bold group border-2 p-3 my-2 mr-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
 							View Work
 							<span className='group-hover:rotate-90 duration-300'>
 								<HiArrowNarrowRight className='ml-3' />
 							</span>
 						</button>
-          </a>
-					<button className='text-white font-bold group border-2 p-3 my-2 ml-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
-						<a
-							className='flex justify-between items-center w-full text-gray-100'
-							href={resume}
-							target='_blank'
-							rel='noreferrer'
-						>
+					</a>
+
+					<a href={resume}>
+						<button className='text-white font-bold group border-2 p-3 my-2 ml-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
 							Resume
 							<FiExternalLink className='ml-3' />
-						</a>
-					</button>
+						</button>
+					</a>
 				</div>
 			</div>
 		</div>
