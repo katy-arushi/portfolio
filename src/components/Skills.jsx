@@ -89,13 +89,20 @@ const Skills = () => {
           
           {skills.map(skill => {
             return (
-              <div className='shadow-md shadow-shadow border-2 border-pink-600 rounded-md pt-4 hover:scale-110 duration-500'>
-                <a href={skill.link} target='_blank' rel='noreferrer'>
-                  <img className='w-20 h-20 mx-auto' src={skill.img} alt={skill.alt} />
-                  <p className='my-4'>{skill.name}</p>
-                </a>
-              </div>
-            )
+							<div
+								className='shadow-md shadow-shadow border-2 border-pink-600 rounded-md pt-4 hover:scale-110 duration-500'
+								key={skill.id}
+							>
+								<a href={skill.link} target='_blank' rel='noreferrer'>
+									<img
+										className='w-20 h-20 mx-auto'
+										src={skill.img}
+										alt={skill.alt}
+									/>
+									<p className='my-4'>{skill.name}</p>
+								</a>
+							</div>
+						);
           })}
 				</div>
 			</div>

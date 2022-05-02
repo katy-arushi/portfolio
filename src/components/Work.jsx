@@ -85,11 +85,10 @@ const Work = () => {
 				<div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 					{projects.map(project => {
             return (
-							<div>
+							<div key={project.id}>
 								<div
 									style={{ backgroundImage: `url(${project.url})` }}
 									className='shadow-lg shadow-shadow group container rounded-md flex justify-center items-center mx-auto content-div'
-									key={project.id}
 								>
 									{/* hover effects*/}
 									<div className='opacity-0 group-hover:opacity-100 text-center'>
