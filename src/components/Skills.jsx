@@ -1,18 +1,76 @@
-import React from 'react';
 import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
-import ReactImg from '../assets/react.png';
+import React from '../assets/react.png';
 import Node from '../assets/node.png';
 import GitHub from '../assets/github.png';
-import Sass from '../assets/sass.svg';
-import Postgres from '../assets/postgres.png';
+import SASS from '../assets/sass.svg';
+import PostgreSQL from '../assets/postgres.png';
 
 const Skills = () => {
+  const skills = [
+    {
+      name: 'JavaScript',
+      img: JavaScript,
+      alt: 'JavaScript icon',
+      link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+      id: 1,
+    },
+    {
+      name: 'React',
+      img: React,
+      alt: 'React icon',
+      link: 'https://reactjs.org/',
+      id: 2,
+    },
+    {
+      name: 'HTML',
+      img: HTML,
+      alt: 'HTML icon',
+      link: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
+      id: 3,
+    },
+    {
+      name: 'CSS',
+      img: CSS,
+      alt: 'CSS icon',
+      link: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
+      id: 4,
+    },
+    {
+      name: 'Sass',
+      img: SASS,
+      alt: 'Sass icon',
+      link: 'https://sass-lang.com/',
+      id: 5,
+    },
+    {
+      name: 'Node.js',
+      img: Node,
+      alt: 'Node.js icon',
+      link: 'https://nodejs.dev/',
+      id: 6,
+    },
+    {
+      name: 'PostgreSQL',
+      img: PostgreSQL,
+      alt: 'PostgreSQL icon',
+      link: 'https://www.postgresql.org/',
+      id: 7,
+    },
+    {
+      name: 'GitHub',
+      img: GitHub,
+      alt: 'GitHub icon',
+      link: 'https://github.com/',
+      id: 8,
+    },
+  ];
+
 	return (
 		<div
 			id='skills'
-			className='w-full md:h-screen bg-[#0a192f] text-gray-300'
+			className='w-full sm:h-screen md:h-screen lg:h-screen bg-background text-gray-300'
 		>
 			{/* container */}
 			<div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
@@ -27,46 +85,18 @@ const Skills = () => {
 				</div>
 
 				<div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
-					<div className='shadow-md shadow-skills-shadow border-2 border-pink-600 rounded-md pt-4 hover:scale-110 duration-500'>
-						<img
-							className='w-20 mx-auto'
-							src={JavaScript}
-							alt='JavaScript icon'
-						/>
-						<p className='my-4'>JavaScript</p>
-					</div>
-					<div className='shadow-md shadow-shadow border-2 border-pink-600 rounded-md pt-4 hover:scale-110 duration-500'>
-						<img className='w-20 mx-auto' src={ReactImg} alt='React icon' />
-						<p className='my-4'>React</p>
-					</div>
-					<div className='shadow-md shadow-shadow border-2 border-pink-600 rounded-md pt-4 hover:scale-110 duration-500'>
-						<img className='w-20 mx-auto' src={HTML} alt='HTML icon' />
-						<p className='my-4'>HTML</p>
-					</div>
-					<div className='shadow-md shadow-shadow border-2 border-pink-600 rounded-md pt-4 hover:scale-110 duration-500'>
-						<img className='w-20 mx-auto' src={CSS} alt='CSS icon' />
-						<p className='my-4'>CSS</p>
-					</div>
-					<div className='shadow-md shadow-shadow border-2 border-pink-600 rounded-md pt-4 hover:scale-110 duration-500'>
-						<img className='w-20 mx-auto' src={Sass} alt='Sass icon' />
-						<p className='my-9'>Sass</p>
-					</div>
-					<div className='shadow-md shadow-shadow border-2 border-pink-600 rounded-md pt-4 hover:scale-110 duration-500'>
-						<img className='w-20 mx-auto' src={Node} alt='Node icon' />
-						<p className='my-4'>Node.js</p>
-					</div>
-					<div className='shadow-md shadow-shadow border-2 border-pink-600 rounded-md pt-4 hover:scale-110 duration-500'>
-						<img
-							className='w-20 mx-auto'
-							src={Postgres}
-							alt='PostgreSQL icon'
-						/>
-						<p className='my-3.5'>PostgreSQL</p>
-					</div>
-					<div className='shadow-md shadow-shadow border-2 border-pink-600 rounded-md pt-4 hover:scale-110 duration-500'>
-						<img className='w-20 mx-auto' src={GitHub} alt='GitHub icon' />
-						<p className='my-4'>GitHub</p>
-					</div>
+          {/* skill boxes */}
+          
+          {skills.map(skill => {
+            return (
+              <div className='shadow-md shadow-shadow border-2 border-pink-600 rounded-md pt-4 hover:scale-110 duration-500'>
+                <a href={skill.link} target='_blank' rel='noreferrer'>
+                  <img className='w-20 h-20 mx-auto' src={skill.img} alt={skill.alt} />
+                  <p className='my-4'>{skill.name}</p>
+                </a>
+              </div>
+            )
+          })}
 				</div>
 			</div>
 		</div>
