@@ -40,7 +40,7 @@ function NavBar() {
   return (
 		<div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-background text-gray-300'>
 			<div>
-				<a href='#home'>
+				<a href='/'>
 					<img src={Logo} alt='Arushi Katyal Logo' style={{ width: '75px' }} />
 				</a>
 			</div>
