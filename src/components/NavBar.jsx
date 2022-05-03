@@ -46,16 +46,16 @@ function NavBar() {
 			</div>
 
 			{/* menu */}
-      <ul className='hidden md:flex'>
-        {categories.map(category => {
-          return (
-            <li key={category.id}>
-              <a href={category.href} className='hover:text-pink-600'>
-                {category.name}
-              </a>
-            </li>
-          )
-        })}
+			<ul className='hidden md:flex'>
+				{categories.map(category => {
+					return (
+						<li key={category.id}>
+							<a href={category.href} className='hover:text-pink-600'>
+								{category.name}
+							</a>
+						</li>
+					);
+				})}
 			</ul>
 
 			{/* hamburger */}
@@ -68,18 +68,18 @@ function NavBar() {
 				className={
 					!nav
 						? 'hidden'
-						: 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
+						: 'absolute top-0 left-0 w-full h-screen bg-background flex flex-col justify-center items-center'
 				}
-      >
-        {categories.map(category => {
-          return (
-            <li className='py-6 text-4xl' key={category.id}>
-              <a onClick={handleClick} href={category.href}>
-                {category.name}
-              </a>
-            </li>
-          )
-        })}
+			>
+				{categories.map(category => {
+					return (
+						<li className='py-6 text-4xl' key={category.id}>
+							<a onClick={handleClick} href={category.href}>
+								{category.name}
+							</a>
+						</li>
+					);
+				})}
 				<li className='text-2xl mt-8 mb-4 border-b-4 border-pink-600'>
 					Social Links
 				</li>
@@ -118,7 +118,7 @@ function NavBar() {
 			</ul>
 
 			{/* social icons */}
-			<div className='hidden lg:flex fixed flex-col top-[38%] left-0 font-bold'>
+			<div className='hidden lg:flex fixed flex-col top-[38vh] left-0 font-bold'>
 				<ul>
 					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 rounded-sm bg-blue-600'>
 						<a
