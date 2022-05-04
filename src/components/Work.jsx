@@ -1,10 +1,10 @@
 import React from 'react';
-import veggielicious from '../assets/veggielicious.png';
-import pomopets from '../assets/pomopets.png';
-import scheduler from '../assets/scheduler.png';
-import passwordb from '../assets/passwordb.png';
-import tweeter from '../assets/tweeter.png';
-import tinyapp from '../assets/tinyapp.png';
+import veggielicious from '../assets/projects/veggielicious-min.png';
+import pomopets from '../assets/projects/pomopets-min.png';
+import scheduler from '../assets/projects/scheduler-min.png';
+import passwordb from '../assets/projects/passwordb-min.png';
+import tweeter from '../assets/projects/tweeter-min.png';
+import tinyapp from '../assets/projects/tinyapp-min.png';
 
 const Work = () => {
 	const projects = [

@@ -1,11 +1,11 @@
-import HTML from '../assets/html.png';
-import CSS from '../assets/css.png';
-import JavaScript from '../assets/javascript.png';
-import React from '../assets/react.png';
-import Node from '../assets/node.png';
-import GitHub from '../assets/github.png';
-import SASS from '../assets/sass.svg';
-import PostgreSQL from '../assets/postgres.png';
+import HTML from '../assets/skills/html.png';
+import CSS from '../assets/skills/css.png';
+import JavaScript from '../assets/skills/javascript.png';
+import React from '../assets/skills/react.png';
+import Node from '../assets/skills/node.png';
+import GitHub from '../assets/skills/github.png';
+import SASS from '../assets/skills/sass.svg';
+import PostgreSQL from '../assets/skills/postgres.png';
 
 const Skills = () => {
   const skills = [
