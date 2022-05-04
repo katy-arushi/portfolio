@@ -10,7 +10,6 @@ const About = () => {
 							About
 						</p>
 					</div>
-					<div></div>
 				</div>
 				<div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
 					<div className='sm:text-right text-4xl font-bold'>
@@ -25,7 +24,7 @@ const About = () => {
 							to contribute my technical skills to an innovative team and
 							continue to grow and improve as a developer.
 						</p>
-						<p className='text-lg mt-4 mb-8'>
+						<p className='text-lg pt-4'>
 							My previous experience and interests in mental health advocacy,
 							peer counselling, and clinical & research psychology has provided
 							me with a high attention to detail and a focus on team
