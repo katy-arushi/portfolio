@@ -70,8 +70,11 @@ const Work = () => {
 	];
 
 	return (
-		<div id='work' className='w-full md:h-screen text-gray-300 bg-background'>
-			<div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+		<div
+			id='work'
+			className='w-full min-h-screen text-gray-300 bg-background'
+		>
+			<div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full min-h-screen'>
 				<div className='pb-8'>
 					<p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>
 						Work
@@ -84,7 +87,7 @@ const Work = () => {
 				{/* container */}
 				<div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 					{projects.map(project => {
-            return (
+						return (
 							<div key={project.id}>
 								<div
 									style={{ backgroundImage: `url(${project.url})` }}
