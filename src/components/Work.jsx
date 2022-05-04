@@ -16,6 +16,7 @@ const Work = () => {
 			blurb:
 				'Recipe app featuring vegetarian & vegan recipes. Users can filter by cuisine or use the search bar.',
 			tech: 'React, Styled-Components, Spoonacular API',
+			demo: true,
 			id: 1,
 		},
 		{
@@ -26,6 +27,7 @@ const Work = () => {
 			blurb:
 				'React productivity app that integrates a Pomodoro Timer and a digital pet.',
 			tech: 'React, SASS, Bootstrap, Node, Express, Prisma',
+			demo: true,
 			id: 2,
 		},
 		{
@@ -36,6 +38,7 @@ const Work = () => {
 			blurb:
 				'React app for scheduling interviews, features unit, integration and E2E testing.',
 			tech: 'React, Jest, Storybook, Cypress, CircleCI',
+			demo: true,
 			id: 3,
 		},
 		{
@@ -44,8 +47,9 @@ const Work = () => {
 			demo: '/',
 			code: 'https://github.com/katy-arushi/passwordb',
 			blurb:
-				"Passwordb allows a user to add accounts and generate secure passwords.",
+				'Passwordb allows a user to add accounts and generate secure passwords.',
 			tech: 'JavaScript, HTML, CSS, SASS, jQuery, Node, PostgreSQL',
+			demo: false,
 			id: 4,
 		},
 		{
@@ -56,6 +60,7 @@ const Work = () => {
 			blurb:
 				'Single-page Twitter clone focusing on front-end, responsive design.',
 			tech: 'JavaScript, HTML, CSS, jQuery, AJAX',
+			demo: false,
 			id: 5,
 		},
 		{
@@ -65,6 +70,7 @@ const Work = () => {
 			code: 'https://github.com/katy-arushi/tinyapp',
 			blurb: 'App for shortening long URLs, à la bit.ly.',
 			tech: 'JavaScript, EJS, Bootstrap, Node, Express',
+			demo: false,
 			id: 6,
 		},
 	];
@@ -99,11 +105,13 @@ const Work = () => {
 											{project.name}
 										</span>
 										<div className='pt-8 text-center'>
-											<a href={project.demo} target='_blank' rel='noreferrer'>
-												<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-btn-hover'>
-													Demo
-												</button>
-											</a>
+                      {(project.demo) &&
+                        <a href={project.demo} target='_blank' rel='noreferrer'>
+                          <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-btn-hover'>
+                            Demo
+                          </button>
+                        </a>
+                      }
 											<a href={project.code} target='_blank' rel='noreferrer'>
 												<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-btn-hover'>
 													Code
