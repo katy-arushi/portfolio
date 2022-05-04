@@ -67,13 +67,14 @@ const Skills = () => {
     },
   ];
 
+  // sm:min-h-screen md:min-h-screen lg:min-h-screen
 	return (
 		<div
 			id='skills'
-			className='w-full sm:h-screen md:h-screen lg:h-screen bg-background text-gray-300'
+			className='w-full min-h-screen bg-background text-gray-300'
 		>
 			{/* container */}
-			<div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+			<div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full min-h-screen'>
 				<div>
 					<p className='text-4xl font-bold inline border-b-4 border-pink-600 rounded-md '>
 						Skills
@@ -85,10 +86,10 @@ const Skills = () => {
 				</div>
 
 				<div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
-          {/* skill boxes */}
-          
-          {skills.map(skill => {
-            return (
+					{/* skill boxes */}
+
+					{skills.map(skill => {
+						return (
 							<div
 								className='shadow-md shadow-shadow border-2 border-pink-600 rounded-md pt-4 hover:scale-110 duration-500'
 								key={skill.id}
@@ -103,7 +104,7 @@ const Skills = () => {
 								</a>
 							</div>
 						);
-          })}
+					})}
 				</div>
 			</div>
 		</div>
