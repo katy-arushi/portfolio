@@ -1,7 +1,6 @@
 # [Arushi Katyal's Portfolio](https://arushi-katyal.netlify.app)
 
-## 👋 Hi! Welcome to my portfolio.
-
+## 👋 Hi! Check out my portfolio.
 ![screenshot](https://github.com/katy-arushi/portfolio/blob/main/public/home.png?raw=true)
 
 ### Built with:
