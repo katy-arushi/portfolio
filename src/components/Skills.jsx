@@ -3,69 +3,77 @@ import CSS from '../assets/skills/css.png';
 import JavaScript from '../assets/skills/javascript.png';
 import React from '../assets/skills/react.png';
 import Node from '../assets/skills/node.png';
-import GitHub from '../assets/skills/github.png';
+// import GitHub from '../assets/skills/github.png';
 import SASS from '../assets/skills/sass.svg';
 import PostgreSQL from '../assets/skills/postgres.png';
+import GraphQL from '../assets/skills/graphql.png'
 
 const Skills = () => {
   const skills = [
-    {
-      name: 'JavaScript',
-      img: JavaScript,
-      alt: 'JavaScript icon',
-      link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
-      id: 1,
-    },
-    {
-      name: 'React',
-      img: React,
-      alt: 'React icon',
-      link: 'https://reactjs.org/',
-      id: 2,
-    },
-    {
-      name: 'HTML',
-      img: HTML,
-      alt: 'HTML icon',
-      link: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
-      id: 3,
-    },
-    {
-      name: 'CSS',
-      img: CSS,
-      alt: 'CSS icon',
-      link: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
-      id: 4,
-    },
-    {
-      name: 'Sass',
-      img: SASS,
-      alt: 'Sass icon',
-      link: 'https://sass-lang.com/',
-      id: 5,
-    },
-    {
-      name: 'Node.js',
-      img: Node,
-      alt: 'Node.js icon',
-      link: 'https://nodejs.dev/',
-      id: 6,
-    },
-    {
-      name: 'PostgreSQL',
-      img: PostgreSQL,
-      alt: 'PostgreSQL icon',
-      link: 'https://www.postgresql.org/',
-      id: 7,
-    },
-    {
-      name: 'GitHub',
-      img: GitHub,
-      alt: 'GitHub icon',
-      link: 'https://github.com/',
-      id: 8,
-    },
-  ];
+		{
+			name: 'JavaScript',
+			img: JavaScript,
+			alt: 'JavaScript icon',
+			link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+			id: 1,
+		},
+		{
+			name: 'React & React Native',
+			img: React,
+			alt: 'React icon',
+			link: 'https://reactjs.org/',
+			id: 2,
+		},
+		{
+			name: 'GraphQL',
+			img: GraphQL,
+			alt: 'GraphQL icon',
+			link: 'https://graphql.org/',
+			id: 3,
+		},
+		{
+			name: 'HTML',
+			img: HTML,
+			alt: 'HTML icon',
+			link: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
+			id: 4,
+		},
+		{
+			name: 'CSS',
+			img: CSS,
+			alt: 'CSS icon',
+			link: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
+			id: 5,
+		},
+		{
+			name: 'Sass',
+			img: SASS,
+			alt: 'Sass icon',
+			link: 'https://sass-lang.com/',
+			id: 6,
+		},
+		{
+			name: 'Node.js',
+			img: Node,
+			alt: 'Node.js icon',
+			link: 'https://nodejs.dev/',
+			id: 7,
+		},
+		{
+			name: 'PostgreSQL',
+			img: PostgreSQL,
+			alt: 'PostgreSQL icon',
+			link: 'https://www.postgresql.org/',
+			id: 8,
+		},
+		// {
+		// 	name: 'GitHub',
+		// 	img: GitHub,
+		// 	alt: 'GitHub icon',
+		// 	link: 'https://github.com/',
+		// 	id: 9,
+		// },
+	];
 
   // sm:min-h-screen md:min-h-screen lg:min-h-screen
 	return (
