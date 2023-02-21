@@ -19,8 +19,9 @@ const Home = () => {
 				<p className='text-[#8892b0] text-lg py-4 max-w-[700px]'>
 					I'm a Full Stack Developer specializing in exceptional digital
 					experiences. I enjoy working on front-end features and creating
-					elegant apps with user-focused designs. Currently, I'm focused on
-					building responsive full-stack web applications.
+					elegant apps with user-focused designs. My previous work was focused
+					on developing highly-performant iOS applications and improving
+					technical processes and improving code quality and functionality.
 				</p>
 
 				{/* button container */}
